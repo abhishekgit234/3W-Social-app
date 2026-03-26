@@ -59,7 +59,7 @@ npm install
 
 Create a `.env` file in the `backend` directory with the following variables:
 ```env
-PORT=5000
+PORT=3000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
@@ -70,7 +70,7 @@ IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
 Start the backend server:
 ```bash
 npm run dev
-# The server should start on http://localhost:5000 (or your configured port)
+# The server should start on http://localhost:3000 (or your configured port)
 ```
 
 ### 3. Setup Frontend
@@ -83,7 +83,7 @@ npm install
 
 Create a `.env` file in the `frontend` directory (if needed for API URLs):
 ```env
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_BASE_URL=http://localhost:3000/api
 ```
 
 Start the Vite development server:
